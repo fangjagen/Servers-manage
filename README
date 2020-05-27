@@ -5,4 +5,4 @@
 （2）服务器都是linux系统，系统包括：REdhat、centos、ubuntu  
 （3）服务器上有着不同的应用，例如：nginx、mysql、Redis、ElasticSearsh、java等  
 解决思路：  
-见《多服务器管理思路》  
+见《多台linux服务器的统一管理思路》  
