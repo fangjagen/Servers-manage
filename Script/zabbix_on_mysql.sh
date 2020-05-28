@@ -1,6 +1,6 @@
 #!/bin/sh  
 MYSQL_SOCK="/data/mysql/3306/mysql.sock" 
-MYSQL_PWD=$3 
+MYSQL_PWD=`cat /data/mysql/passwd`
 ARGS=1 
 if [ $# -ne "$ARGS" ];then 
     echo "Please input one arguement:" 
